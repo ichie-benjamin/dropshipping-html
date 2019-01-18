@@ -1,0 +1,144 @@
+@font-face {
+  font-family: 'jetwoobuilder';
+  src:  url('../fonts/jetwoobuilder.eot?2we9hf');
+  src:  url('../fonts/jetwoobuilder.eot?2we9hf#iefix') format('embedded-opentype'),
+  url('../fonts/jetwoobuilder.ttf?2we9hf') format('truetype'),
+  url('../fonts/jetwoobuilder.woff?2we9hf') format('woff'),
+  url('../fonts/jetwoobuilder.svg?2we9hf#jetwoobuilder') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="jetwoobuilder-icon-"], [class*=" jetwoobuilder-icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'jetwoobuilder' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.elementor-panel [class^="jetwoobuilder-icon-"]:before,
+.elementor-panel [class*=" jetwoobuilder-icon-"]:before{
+  font-size: 48px;
+  display: block;
+  line-height: 38px;
+}
+
+.jetwoobuilder-icon-1:before {
+  content: "\e900";
+}
+.jetwoobuilder-icon-2:before {
+  content: "\e901";
+}
+.jetwoobuilder-icon-3:before {
+  content: "\e902";
+}
+.jetwoobuilder-icon-4:before {
+  content: "\e903";
+}
+.jetwoobuilder-icon-5:before {
+  content: "\e904";
+}
+.jetwoobuilder-icon-6:before {
+  content: "\e905";
+}
+.jetwoobuilder-icon-7:before {
+  content: "\e906";
+}
+.jetwoobuilder-icon-8:before {
+  content: "\e907";
+}
+.jetwoobuilder-icon-9:before {
+  content: "\e908";
+}
+.jetwoobuilder-icon-10:before {
+  content: "\e909";
+}
+.jetwoobuilder-icon-11:before {
+  content: "\e90a";
+}
+.jetwoobuilder-icon-12:before {
+  content: "\e90b";
+}
+.jetwoobuilder-icon-13:before {
+  content: "\e90c";
+}
+.jetwoobuilder-icon-14:before {
+  content: "\e90d";
+}
+.jetwoobuilder-icon-15:before {
+  content: "\e90e";
+}
+.jetwoobuilder-icon-16:before {
+  content: "\e90f";
+}
+.jetwoobuilder-icon-17:before {
+  content: "\e910";
+}
+.jetwoobuilder-icon-18:before {
+  content: "\e911";
+}
+.jetwoobuilder-icon-19:before {
+  content: "\e912";
+}
+.jetwoobuilder-icon-20:before {
+  content: "\e913";
+}
+.jetwoobuilder-icon-21:before {
+  content: "\e914";
+}
+.jetwoobuilder-icon-22:before {
+  content: "\e915";
+}
+.jetwoobuilder-icon-23:before {
+  content: "\e916";
+}
+.jetwoobuilder-icon-24:before {
+  content: "\e917";
+}
+.jetwoobuilder-icon-25:before {
+  content: "\e918";
+}
+.jetwoobuilder-icon-26:before {
+  content: "\e919";
+}
+.jetwoobuilder-icon-27:before {
+  content: "\e91a";
+}
+.jetwoobuilder-icon-28:before {
+  content: "\e91b";
+}
+.jetwoobuilder-icon-29:before {
+  content: "\e91c";
+}
+.jetwoobuilder-icon-30:before {
+  content: "\e91d";
+}
+.jetwoobuilder-icon-31:before {
+  content: "\e91e";
+}
+.jetwoobuilder-icon-32:before {
+  content: "\e91f";
+}
+.jetwoobuilder-icon-33:before {
+  content: "\e920";
+}
+.jetwoobuilder-icon-34:before {
+  content: "\e921";
+}
+.jetwoobuilder-icon-35:before {
+  content: "\e922";
+}
+.jetwoobuilder-icon-36:before {
+  content: "\e923";
+}
+.jetwoobuilder-icon-37:before {
+  content: "\e924";
+}

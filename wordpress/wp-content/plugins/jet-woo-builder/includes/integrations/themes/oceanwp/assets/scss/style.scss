@@ -1,0 +1,73 @@
+/**
+ * Ocean WP integration styles
+ */
+
+.entry-content .jet-woo-builder {
+	.product_meta {
+		> span {
+			display: block;
+		}
+	}
+
+	.woocommerce-tabs li {
+		margin: 0;
+	}
+
+	.tabs > li {
+
+		&:after,
+		&:before {
+			display: none;
+		}
+
+		a {
+			width: 100%;
+			display: block;
+		}
+	}
+
+	.woocommerce-tabs ul.tabs.wc-tabs,
+	.woocommerce-tabs ul.tabs.wc-tabs li a {
+		border: none;
+	}
+
+	.woocommerce-variation-price .price {
+		display: block;
+	}
+
+	.woocommerce-tabs .panel.wc-tab {
+		margin: 0;
+	}
+
+	.price .amount{
+		color: inherit;
+	}
+
+	.single_add_to_cart_button{
+		vertical-align: top;
+	}
+
+	form .input-text.qty{
+		max-width: calc( 100% - 74px );
+	}
+}
+
+.woocommerce div.product .jet-single-images__wrap .woocommerce-product-gallery .flex-control-thumbs li{
+	clear: unset!important;
+}
+// TODO: Do this when will work on OceanWP compatibility
+//.elementor-jet-woo-builder-products-ordering {
+//	.woocommerce-ordering {
+//		select{
+//			-webkit-appearance: inherit!important;
+//			width: 100%!important;
+//			position: relative!important;
+//			opacity: 1!important;
+//			height: auto!important;
+//		}
+//
+//		.theme-select.orderby.theme-selectOpen{
+//			display: none!important;
+//		}
+//	}
+//}

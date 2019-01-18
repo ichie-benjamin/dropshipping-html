@@ -1,0 +1,158 @@
+.jet-template-popup {
+	display: none;
+	justify-content: center;
+	align-items: center;
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	z-index: 999;
+	&.jet-template-popup-active {
+		display: flex;
+	}
+	&[data-refer="plain"] {
+		.jet-template-popup-predesigned {
+			display: none;
+		}
+		.jet-template-popup-plain {
+			display: block;
+		}
+	}
+	&[data-refer="predesigned"] {
+		.jet-template-popup-predesigned {
+			display: block;
+		}
+		.jet-template-popup-plain {
+			display: none;
+		}
+	}
+	&__overlay {
+		position: absolute;
+		left: 0;
+		right: 0;
+		top: 0;
+		bottom: 0;
+		background: rgba(0, 0, 0, .8);
+		transition: opacity 200ms linear;
+		opacity: 0;
+		z-index: 1000;
+		.jet-template-popup-active & {
+			opacity: 1;
+		}
+	}
+	&__content {
+		background: #fff;
+		padding: 30px;
+		width: 700px;
+		max-width: 100%;
+		position: relative;
+		transition: opacity 200ms linear;
+		opacity: 0;
+		z-index: 1001;
+		.jet-template-popup-active & {
+			opacity: 1;
+		}
+	}
+	&__heading {
+		margin: 0 0 10px;
+	}
+	&__subheading {
+		margin: 0 0 5px;
+	}
+	&__item {
+		position: relative;
+		box-sizing: border-box;
+		max-width: 25%;
+		flex: 0 0 25%;
+		padding: 10px;
+	}
+	
+	.jet-template-popup__item--uncheck{
+		position: absolute;
+		top: 7px;
+		right: 12px;
+		display: none;
+		font-size: 20px;
+		z-index: 2;
+		cursor: pointer;
+	}
+	
+	&__label {
+		display: block;
+		width: 100%;
+		height: auto;
+		padding: 0;
+		margin: 0;
+		position: relative;
+		
+		&.is--checked ~ .jet-template-popup__item--uncheck{
+			display: block;
+		}
+		
+		input {
+			position: absolute;
+			z-index: 1;
+			left: 50%;
+			top: 50%;
+			&:checked + img {
+				border: 1px solid #ccc;
+				box-shadow: 0 0 3px #008ec2;
+			}
+			
+		}
+		
+		img {
+			display: block;
+			width: 100%;
+			height: auto;
+			position: relative;
+			z-index: 2;
+			border: 1px solid #eee;
+			border-radius: 3px;
+			&:hover {
+				box-shadow: 0 3px 10px rgba(0, 0, 0, .1);
+			}
+		}
+	}
+	&__form {
+		&-row {
+			&.plain-row {
+				padding: 0 0 20px;
+				label {
+					display: block;
+					padding: 0 0 4px;
+				}
+				input,
+				select {
+					width: 100%;
+					padding: 10px 20px;
+					line-height: 20px;
+					height: auto;
+				}
+			}
+			&.predesigned-row {
+				padding: 0 0 10px;
+				margin: 0 -10px;
+				display: none;
+				flex-wrap: wrap;
+				&.is-active {
+					display: flex;
+				}
+			}
+		}
+		&-actions {
+			button {
+				width: 100%;
+			}
+		}
+	}
+	&__error {
+		border-color: #dc3232;
+	}
+	
+	.predesigned-templates__description{
+		margin-left: 10px;
+		margin-right: 10px;
+	}
+}

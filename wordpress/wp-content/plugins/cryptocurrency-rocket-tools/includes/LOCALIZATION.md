@@ -1,0 +1,3 @@
+You can translate the plugin into your language. To make it take our file "/cryptocurrency-rocket-tools/languages/cryptocurrency-rocket-tools.pot", then translate and generate .PO and .MO files and put into the directory "/cryptocurrency-rocket-tools/languages/". [Read how to generate .PO and .MO files.](https://developer.wordpress.org/themes/functionality/localization/#translate-po-file)
+
+Help us to translate the plugin. Send us your .PO and .MO file using email address info@webstulle.com.

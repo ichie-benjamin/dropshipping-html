@@ -1,0 +1,29 @@
+.elementor-widget-container {
+	.elementor-jet-single-images {
+		.jet-single-images {
+			&__wrap {
+				&:after {
+					clear: both;
+					content: "";
+					width: 100%;
+					display: block;
+				}
+				.woocommerce-product-gallery {
+					width: 100%;
+					
+					img{
+						width: 100%;
+					}
+					
+					.flex-control-thumbs li img{
+						width: 100%;
+					}
+
+					.flex-control-thumbs{
+						clear: none;
+					}
+				}
+			}
+		}
+	}
+}

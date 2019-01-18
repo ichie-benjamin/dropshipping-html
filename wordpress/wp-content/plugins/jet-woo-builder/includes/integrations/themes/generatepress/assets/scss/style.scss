@@ -1,0 +1,34 @@
+/**
+ * GeneratePress integration styles
+ */
+
+.site-main .jet-woo-builder,
+.entry-content .jet-woo-builder {
+	.product_meta {
+		> span {
+			display: block;
+		}
+	}
+	
+	.tabs{
+		&:after,
+		&:before{
+			display: none!important;
+		}
+		
+		> li {
+			border: none!important;
+			background: transparent!important;
+			
+			&:after,
+			&:before {
+				display: none;
+			}
+			
+			a {
+				width: 100%;
+				display: block;
+			}
+		}
+	}
+}

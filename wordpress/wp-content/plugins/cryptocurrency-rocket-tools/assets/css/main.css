@@ -1,0 +1,315 @@
+.crtools-table table.dataTable thead th {
+    background-image: none !important;
+    vertical-align: middle;
+    text-align: center;
+    height: 35px;
+}
+
+.crtools-table table.dataTable tbody td {
+    text-align: center;
+    vertical-align: middle;
+}
+
+.crtools-table table.dataTable tbody tr {
+    height: 70px !important;
+}
+
+.crtools-table .dataTables_scrollBody {
+    /*overflow: hidden!important;*/
+}
+
+.crtools-table .myChart {
+    margin: auto;
+}
+
+.crtools-table .red-text {
+    color: #f44336;
+}
+
+.crtools-table .green-text {
+    color: #4CAF50;
+}
+
+.crtools-table .currency {
+    float: left;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.crtools-table .dataTables_length {
+    float: left;
+}
+
+.crtools-table table {
+    width: 100%;
+    overflow: scroll;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+.crtools-table .input-sm {
+    height: auto;
+}
+
+.crtools-table .input-sm {
+    height: auto;
+}
+
+.crtools-graph {
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+
+.crtools-graph .sg-buttons {
+    padding: 10px 0;
+}
+
+.crtools-graph .fiat-button {
+    margin-right: 15px;
+}
+
+.crtools-graph .period-button {
+    margin-right: 10px;
+}
+
+.crtools-graph .fiat-button {
+    font-weight: bold;
+    border: 2px solid #d7d7d7;
+    background-color: #fff;
+}
+
+.crtools-graph .fiat-button:hover,
+.crtools-graph .fiat-button.active {
+    border: 2px solid #ffcc04;
+}
+
+.crtools-graph .period-button {
+    background-color: #f7f7f7;
+    border: none;
+    width: 50px;
+}
+
+.crtools-graph .period-button:hover,
+.crtools-graph .period-button.active {
+    font-weight: bold;
+    background-color: #e7f0fa;
+}
+
+.crtools-graph .loader {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: url(../images/crtools_ajax_loader.gif) no-repeat center center;
+    z-index: 999;
+}
+
+.currency-button:last-child {
+    margin-right: 30px;
+}
+
+.crtools-table .table-cell {
+    display: table-cell;
+}
+
+.crtools-table div.dataTables_wrapper div.dataTables_paginate {
+    white-space: inherit;
+}
+
+.crtools-table .coin-ico {
+    vertical-align: middle;
+    text-align: right;
+    position: relative;
+    padding-right: 20px;
+}
+
+.crtools-table .coin-name {
+    text-align: left;
+}
+
+.crtools-converter {
+    max-width: 250px;
+}
+
+.crtools-converter div.from {
+    padding-bottom: 10px;
+}
+
+.crtools-converter div.from, div.to {
+    padding-top: 5px;
+}
+
+.crtools-converter span.from, span.to {
+    width: 52px;
+}
+
+.crtools-converter .input-group-ct {
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    width: 100%;
+}
+
+.crtools-converter .input-group-addon-ct {
+    padding: .5rem .75rem;
+    margin-bottom: 0;
+    font-weight: 400;
+    line-height: 1.25;
+    color: #495057;
+    text-align: center;
+    background-color: #e9ecef;
+    border: 1px solid rgba(0, 0, 0, .15);
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 4px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 4px;
+    /*border-radius: .25rem;*/
+}
+
+.crtools-converter .input-group-ct .form-control-ct:not(:last-child),
+.crtools-converter .input-group-addon-ct:not(:last-child),
+.crtools-converter .input-group-btn:not(:first-child) > .btn-group:not(:last-child) > .btn,
+.crtools-converter .input-group-btn:not(:first-child) > .btn:not(:last-child):not(.dropdown-toggle),
+.crtools-converter .input-group-btn:not(:last-child) > .btn,
+.input-group-btn:not(:last-child) > .btn-group > .btn,
+.crtools-converter .input-group-btn:not(:last-child) > .dropdown-toggle {
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+.crtools-converter .input-group-ct .form-control-ct, .input-group-addon, .input-group-btn {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.crtools-converter .input-group-ct .form-control-ct {
+    position: relative;
+    z-index: 2;
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    width: 1%;
+    margin-bottom: 0;
+}
+
+.crtools-converter .form-control-ct {
+    display: block;
+    padding: .5rem .75rem;
+    line-height: 1.25;
+    color: #495057;
+    background-color: #fff;
+    background-image: none;
+    background-clip: padding-box;
+    border: 1px solid rgba(0, 0, 0, .15);
+    border-radius: .25rem;
+    transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+}
+
+.crtools-table .left-side {
+    text-align: left !important;
+}
+
+.crtools-pricelist {
+    border: 1px solid rgb(224, 230, 239);
+    max-width: 350px;
+}
+
+.crtools-pricelist .tab-div {
+    overflow: hidden;
+}
+
+.crtools-pricelist .crtools-logo {
+    width: 20px;
+    height: 20px;
+    vertical-align: middle;
+    margin-right: 10px;
+    border: 0;
+    position: inherit;
+    max-width: inherit;
+    left: inherit;
+    right: inherit;
+    top: inherit;
+    bottom: inherit;
+    margin-bottom: inherit;
+}
+
+.crtools-pricelist .tab {
+    display: block;
+    background: rgb(245, 245, 245);
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    line-height: 37px;
+    float: left;
+    width: 25%;
+    text-align: center;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.crtools-pricelist .tab.active {
+    background: rgb(255, 255, 255) !important;
+}
+.crtools-pricelist .crtools-row {
+    margin-left: 0;
+    margin-right: 0;
+    display: block;
+    background: rgb(255, 255, 255);
+    border-bottom: 1px solid rgb(224, 230, 239);
+    overflow: hidden;
+    font-size: 14px;
+    color: rgb(0, 0, 0);
+    font-weight: 700;
+    line-height: 36px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.crtools-pricelist .crtools-row:last-child {
+    border-bottom: none;
+}
+.crtools-pricelist .crtools-row .row-left {
+    float: left;
+}
+
+.crtools-pricelist .crtools-row .row-right {
+    float: right;
+}
+
+.crtools-pricelist .red {
+    color: #a11b0a;
+}
+
+.crtools-pricelist .green {
+    color: #3d9200;
+}
+
+.crtools-pricelist .arrow {
+    width: 12px;
+    height: 12px;
+    margin-left: 5px;
+    vertical-align: inherit;
+    border: 0;
+    position: inherit;
+    max-width: inherit;
+    left: inherit;
+    right: inherit;
+    top: inherit;
+    bottom: inherit;
+    margin-bottom: inherit;
+}
+
+.crtools-pricelist .crtools-change {
+    font-weight: normal;
+}
+
+.crtools-pricelist .crtools-change>img{
+    width: 8px;
+    vertical-align: inherit;
+}
+
+.crtools-data-by-link{
+    float: right;
+    font-size: 10px;
+    opacity: 0.8;
+}

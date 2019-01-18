@@ -1,0 +1,26 @@
+.single-product{
+	.product .elementor-jet-single-add-to-cart{
+		.cart .quantity {
+			float: none;
+			
+			.input-text{
+				width: 100%;
+			}
+		}
+		
+		.single_variation .price {
+			margin-bottom: 0;
+		}
+
+		.variations select{
+			vertical-align: top;
+			width: 100%;
+		}
+	}
+}
+
+.elementor-jet-single-add-to-cart {
+	.reset_variations{
+		margin: 10px 0 0 0;
+	}
+}

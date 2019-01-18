@@ -1,0 +1,24 @@
+.jet-woo-builder-shop-navigation {
+	display: flex;
+	align-items: center;
+	
+	> a {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
+	
+	.jet-woo-builder-shop-navigation__arrow {
+		width: 20px;
+		height: 20px;
+		text-align: center;
+		cursor: pointer;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		z-index: 999;
+		&:before {
+			display: block;
+		}
+	}
+}

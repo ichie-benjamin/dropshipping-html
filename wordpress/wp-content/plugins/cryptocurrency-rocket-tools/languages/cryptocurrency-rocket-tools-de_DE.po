@@ -1,0 +1,244 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2017-12-25 23:05+0300\n"
+"PO-Revision-Date: 2018-01-24 23:21+0300\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.0.5\n"
+"X-Poedit-Basepath: ../includes\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Poedit-KeywordsList: __\n"
+"Last-Translator: \n"
+"Language: de_DE\n"
+"X-Poedit-SearchPath-0: messages.php\n"
+
+#: messages.php:10
+msgid "№"
+msgstr ""
+
+#: messages.php:12
+msgid "Name"
+msgstr "Name"
+
+#: messages.php:14
+msgid "Price"
+msgstr "Preis"
+
+#: messages.php:16
+msgid "Market Cap"
+msgstr "Marktkapitalisierung"
+
+#: messages.php:18
+msgid "Circulating Supply"
+msgstr "Anzahl"
+
+#: messages.php:20
+msgid "Volume 24H"
+msgstr "Volumen 24H"
+
+#: messages.php:22
+msgid "Change 24H"
+msgstr "Wechsel 24H"
+
+#: messages.php:24
+msgid "Graph 7D"
+msgstr "Diagramm 7D"
+
+#: messages.php:26
+msgid "Currency"
+msgstr "Währung"
+
+#: messages.php:28
+msgid "Search"
+msgstr "Suche"
+
+#: messages.php:30
+msgid "Show _MENU_ rows"
+msgstr "Zeige _MENU_ reihen"
+
+#: messages.php:32
+msgid "Processing..."
+msgstr "Verarbeiten…"
+
+#: messages.php:34
+msgid "First"
+msgstr "Erster"
+
+#: messages.php:36
+msgid "Last"
+msgstr "Letzter"
+
+#: messages.php:38
+msgid "Next"
+msgstr "Nächster"
+
+#: messages.php:40
+msgid "Previous"
+msgstr "Vorheriger"
+
+#: messages.php:44
+msgid "I give"
+msgstr "Ich gebe"
+
+#: messages.php:46
+msgid "I get"
+msgstr "I erhalte"
+
+#: messages.php:48
+msgid "Converter"
+msgstr "Konverter"
+
+#: messages.php:53
+msgid "Sunday"
+msgstr "Sonntag"
+
+#: messages.php:54
+msgid "Monday"
+msgstr "Montag"
+
+#: messages.php:55
+msgid "Tuesday"
+msgstr "Dienstag"
+
+#: messages.php:56
+msgid "Wednesday"
+msgstr "Mittwoch"
+
+#: messages.php:57
+msgid "Thursday"
+msgstr "Donnerstag"
+
+#: messages.php:58
+msgid "Friday"
+msgstr "Freitag"
+
+#: messages.php:59
+msgid "Saturday"
+msgstr "Samstag"
+
+#: messages.php:63
+msgid "Sun"
+msgstr "So"
+
+#: messages.php:64
+msgid "Mon"
+msgstr "Mo"
+
+#: messages.php:65
+msgid "Tue"
+msgstr "Di"
+
+#: messages.php:66
+msgid "Wed"
+msgstr "Mi"
+
+#: messages.php:67
+msgid "Thu"
+msgstr "Do"
+
+#: messages.php:68
+msgid "Fri"
+msgstr "Fr"
+
+#: messages.php:69
+msgid "Sat"
+msgstr "Sa"
+
+#: messages.php:73
+msgid "January"
+msgstr "Januar"
+
+#: messages.php:74
+msgid "February"
+msgstr "Februar"
+
+#: messages.php:75
+msgid "March"
+msgstr "März"
+
+#: messages.php:76
+msgid "April"
+msgstr "April"
+
+#: messages.php:77 messages.php:92
+msgid "May"
+msgstr "Mai"
+
+#: messages.php:78
+msgid "June"
+msgstr "Juni"
+
+#: messages.php:79
+msgid "July"
+msgstr "Juli"
+
+#: messages.php:80
+msgid "August"
+msgstr "August"
+
+#: messages.php:81
+msgid "September"
+msgstr "September"
+
+#: messages.php:82
+msgid "October"
+msgstr "Oktober"
+
+#: messages.php:83
+msgid "November"
+msgstr "November"
+
+#: messages.php:84
+msgid "December"
+msgstr "Dezember"
+
+#: messages.php:88
+msgid "Jan"
+msgstr "Jan"
+
+#: messages.php:89
+msgid "Feb"
+msgstr "Feb"
+
+#: messages.php:90
+msgid "Mar"
+msgstr "März"
+
+#: messages.php:91
+msgid "Apr"
+msgstr "Apr"
+
+#: messages.php:93
+msgid "Jun"
+msgstr "Jun"
+
+#: messages.php:94
+msgid "Jul"
+msgstr "Jul"
+
+#: messages.php:95
+msgid "Aug"
+msgstr "Aug"
+
+#: messages.php:96
+msgid "Sep"
+msgstr "Sept"
+
+#: messages.php:97
+msgid "Oct"
+msgstr "Okt"
+
+#: messages.php:98
+msgid "Nov"
+msgstr "Nov"
+
+#: messages.php:99
+msgid "Dec"
+msgstr "Dez"
+
+#: messages.php:102
+msgid "Volume"
+msgstr "Umsatz"

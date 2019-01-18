@@ -1,0 +1,800 @@
+# Copyright (C) 2017 Automattic
+# This file is distributed under the GNU General Public License v2 or later.
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Kava\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/tags/_s\n"
+"POT-Creation-Date: 2018-10-01 11:40+0300\n"
+"PO-Revision-Date: 2018-05-29 11:17+0200\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.1.1\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-KeywordsList: _e;__;_x;esc_html__;esc_html_e;esc_attr__;esc_attr_e\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: framework\n"
+
+#: config-files/classes/class-tgm-plugin-activation.php:327
+msgid "Install Required Plugins"
+msgstr ""
+
+#: config-files/classes/class-tgm-plugin-activation.php:328
+msgid "Install Plugins"
+msgstr ""
+
+#: config-files/classes/class-tgm-plugin-activation.php:330
+#, php-format
+msgid "Installing Plugin: %s"
+msgstr ""
+
+#: config-files/classes/class-tgm-plugin-activation.php:332
+#, php-format
+msgid "Updating Plugin: %s"
+msgstr ""
+
+#: config-files/classes/class-tgm-plugin-activation.php:333
+msgid "Something went wrong with the plugin API."
+msgstr ""
+
+#: config-files/classes/class-tgm-plugin-activation.php:385
+msgid "Return to Required Plugins Installer"
+msgstr ""
+
+#: config-files/classes/class-tgm-plugin-activation.php:386
+#: config-files/classes/class-tgm-plugin-activation.php:827
+#: config-files/classes/class-tgm-plugin-activation.php:2533
+#: config-files/classes/class-tgm-plugin-activation.php:3584
+msgid "Return to the Dashboard"
+msgstr ""
+
+#: config-files/classes/class-tgm-plugin-activation.php:387
+#: config-files/classes/class-tgm-plugin-activation.php:3159
+msgid "Plugin activated successfully."
+msgstr ""
+
+#: config-files/classes/class-tgm-plugin-activation.php:388
+msgid "The following plugin was activated successfully:"
+msgstr ""
+
+#: config-files/classes/class-tgm-plugin-activation.php:390
+#, php-format
+msgid "No action taken. Plugin %1$s was already active."
+msgstr ""
+
+#: config-files/classes/class-tgm-plugin-activation.php:392
+#, php-format
+msgid ""
+"Plugin not activated. A higher version of %s is needed for this theme. "
+"Please update the plugin."
+msgstr ""
+
+#: config-files/classes/class-tgm-plugin-activation.php:394
+#, php-format
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr ""
+
+#: config-files/classes/class-tgm-plugin-activation.php:395
+msgid "Dismiss this notice"
+msgstr ""
+
+#: config-files/classes/class-tgm-plugin-activation.php:396
+msgid ""
+"There are one or more required or recommended plugins to install, update or "
+"activate."
+msgstr ""
+
+#: config-files/classes/class-tgm-plugin-activation.php:397
+msgid "Please contact the administrator of this site for help."
+msgstr ""
+
+#: config-files/classes/class-tgm-plugin-activation.php:522
+msgid "This plugin needs to be updated to be compatible with your theme."
+msgstr ""
+
+#: config-files/classes/class-tgm-plugin-activation.php:523
+msgid "Update Required"
+msgstr ""
+
+#: config-files/classes/class-tgm-plugin-activation.php:934
+msgid ""
+"The remote plugin package does not contain a folder with the desired slug "
+"and renaming did not work."
+msgstr ""
+
+#: config-files/classes/class-tgm-plugin-activation.php:934
+#: config-files/classes/class-tgm-plugin-activation.php:937
+msgid ""
+"Please contact the plugin provider and ask them to package their plugin "
+"according to the WordPress guidelines."
+msgstr ""
+
+#: config-files/classes/class-tgm-plugin-activation.php:937
+msgid ""
+"The remote plugin package consists of more than one file, but the files are "
+"not packaged in a folder."
+msgstr ""
+
+#: config-files/classes/class-tgm-plugin-activation.php:1982
+#, php-format
+msgid "TGMPA v%s"
+msgstr ""
+
+#: config-files/classes/class-tgm-plugin-activation.php:2273
+msgid "Required"
+msgstr ""
+
+#: config-files/classes/class-tgm-plugin-activation.php:2276
+msgid "Recommended"
+msgstr ""
+
+#: config-files/classes/class-tgm-plugin-activation.php:2292
+msgid "WordPress Repository"
+msgstr ""
+
+#: config-files/classes/class-tgm-plugin-activation.php:2295
+msgid "External Source"
+msgstr ""
+
+#: config-files/classes/class-tgm-plugin-activation.php:2298
+msgid "Pre-Packaged"
+msgstr ""
+
+#: config-files/classes/class-tgm-plugin-activation.php:2315
+msgid "Not Installed"
+msgstr ""
+
+#: config-files/classes/class-tgm-plugin-activation.php:2319
+msgid "Installed But Not Activated"
+msgstr ""
+
+#: config-files/classes/class-tgm-plugin-activation.php:2321
+msgid "Active"
+msgstr ""
+
+#: config-files/classes/class-tgm-plugin-activation.php:2327
+msgid "Required Update not Available"
+msgstr ""
+
+#: config-files/classes/class-tgm-plugin-activation.php:2330
+msgid "Requires Update"
+msgstr ""
+
+#: config-files/classes/class-tgm-plugin-activation.php:2333
+msgid "Update recommended"
+msgstr ""
+
+#: config-files/classes/class-tgm-plugin-activation.php:2342
+#, php-format
+msgid "%1$s, %2$s"
+msgstr ""
+
+#: config-files/classes/class-tgm-plugin-activation.php:2482
+msgid "unknown"
+msgstr ""
+
+#: config-files/classes/class-tgm-plugin-activation.php:2490
+msgid "Installed version:"
+msgstr ""
+
+#: config-files/classes/class-tgm-plugin-activation.php:2498
+msgid "Minimum required version:"
+msgstr ""
+
+#: config-files/classes/class-tgm-plugin-activation.php:2510
+msgid "Available version:"
+msgstr ""
+
+#: config-files/classes/class-tgm-plugin-activation.php:2533
+msgid "No plugins to install, update or activate."
+msgstr ""
+
+#: config-files/classes/class-tgm-plugin-activation.php:2547
+msgid "Plugin"
+msgstr ""
+
+#: config-files/classes/class-tgm-plugin-activation.php:2548
+msgid "Source"
+msgstr ""
+
+#: config-files/classes/class-tgm-plugin-activation.php:2549
+msgid "Type"
+msgstr ""
+
+#: config-files/classes/class-tgm-plugin-activation.php:2553
+msgid "Version"
+msgstr ""
+
+#: config-files/classes/class-tgm-plugin-activation.php:2554
+msgid "Status"
+msgstr ""
+
+#: config-files/classes/class-tgm-plugin-activation.php:2603
+#, php-format
+msgid "Install %2$s"
+msgstr ""
+
+#: config-files/classes/class-tgm-plugin-activation.php:2608
+#, php-format
+msgid "Update %2$s"
+msgstr ""
+
+#: config-files/classes/class-tgm-plugin-activation.php:2614
+#, php-format
+msgid "Activate %2$s"
+msgstr ""
+
+#: config-files/classes/class-tgm-plugin-activation.php:2684
+msgid "Upgrade message from the plugin author:"
+msgstr ""
+
+#: config-files/classes/class-tgm-plugin-activation.php:2717
+msgid "Install"
+msgstr ""
+
+#: config-files/classes/class-tgm-plugin-activation.php:2723
+msgid "Update"
+msgstr ""
+
+#: config-files/classes/class-tgm-plugin-activation.php:2726
+msgid "Activate"
+msgstr ""
+
+#: config-files/classes/class-tgm-plugin-activation.php:2757
+msgid "No plugins were selected to be installed. No action taken."
+msgstr ""
+
+#: config-files/classes/class-tgm-plugin-activation.php:2759
+msgid "No plugins were selected to be updated. No action taken."
+msgstr ""
+
+#: config-files/classes/class-tgm-plugin-activation.php:2800
+msgid "No plugins are available to be installed at this time."
+msgstr ""
+
+#: config-files/classes/class-tgm-plugin-activation.php:2802
+msgid "No plugins are available to be updated at this time."
+msgstr ""
+
+#: config-files/classes/class-tgm-plugin-activation.php:2908
+msgid "No plugins were selected to be activated. No action taken."
+msgstr ""
+
+#: config-files/classes/class-tgm-plugin-activation.php:2934
+msgid "No plugins are available to be activated at this time."
+msgstr ""
+
+#: config-files/classes/class-tgm-plugin-activation.php:3158
+msgid "Plugin activation failed."
+msgstr ""
+
+#: config-files/classes/class-tgm-plugin-activation.php:3498
+#, php-format
+msgid "Updating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: config-files/classes/class-tgm-plugin-activation.php:3501
+#, php-format
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr ""
+
+#: config-files/classes/class-tgm-plugin-activation.php:3503
+#, php-format
+msgid "The installation of %1$s failed."
+msgstr ""
+
+#: config-files/classes/class-tgm-plugin-activation.php:3507
+msgid ""
+"The installation and activation process is starting. This process may take a "
+"while on some hosts, so please be patient."
+msgstr ""
+
+#: config-files/classes/class-tgm-plugin-activation.php:3509
+#, php-format
+msgid "%1$s installed and activated successfully."
+msgstr ""
+
+#: config-files/classes/class-tgm-plugin-activation.php:3510
+msgid "All installations and activations have been completed."
+msgstr ""
+
+#: config-files/classes/class-tgm-plugin-activation.php:3512
+#, php-format
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: config-files/classes/class-tgm-plugin-activation.php:3515
+msgid ""
+"The installation process is starting. This process may take a while on some "
+"hosts, so please be patient."
+msgstr ""
+
+#: config-files/classes/class-tgm-plugin-activation.php:3517
+#, php-format
+msgid "%1$s installed successfully."
+msgstr ""
+
+#: config-files/classes/class-tgm-plugin-activation.php:3518
+msgid "All installations have been completed."
+msgstr ""
+
+#: config-files/classes/class-tgm-plugin-activation.php:3520
+#, php-format
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: config-files/classes/class-tgm-plugin-activation.php:3524
+msgid "Show Details"
+msgstr ""
+
+#: config-files/classes/class-tgm-plugin-activation.php:3524
+msgid "Hide Details"
+msgstr ""
+
+#: config-files/customizer-child.php:18
+msgid "Accent color"
+msgstr ""
+
+#: config-files/customizer-child.php:25
+msgid "Primary Text color"
+msgstr ""
+
+#: config-files/customizer-child.php:32
+msgid "Secondary Text color"
+msgstr ""
+
+#: config-files/customizer-child.php:39
+msgid "Invert Text color"
+msgstr ""
+
+#: config-files/customizer-child.php:46
+msgid "Link color"
+msgstr ""
+
+#: config-files/customizer-child.php:53
+msgid "Link hover color"
+msgstr ""
+
+#: config-files/customizer-child.php:60
+msgid "H1 color"
+msgstr ""
+
+#: config-files/customizer-child.php:67
+msgid "H2 color"
+msgstr ""
+
+#: config-files/customizer-child.php:74
+msgid "H3 color"
+msgstr ""
+
+#: config-files/customizer-child.php:81
+msgid "H4 color"
+msgstr ""
+
+#: config-files/customizer-child.php:88
+msgid "H5 color"
+msgstr ""
+
+#: config-files/customizer-child.php:95
+msgid "H6 color"
+msgstr ""
+
+#: config-files/customizer-child.php:103
+msgid "Typography"
+msgstr ""
+
+#: config-files/customizer-child.php:104
+msgid "Configure typography settings"
+msgstr ""
+
+#: config-files/customizer-child.php:111
+msgid "Body text"
+msgstr ""
+
+#: config-files/customizer-child.php:117 config-files/customizer-child.php:201
+#: config-files/customizer-child.php:285 config-files/customizer-child.php:369
+#: config-files/customizer-child.php:453 config-files/customizer-child.php:537
+#: config-files/customizer-child.php:620 config-files/customizer-child.php:704
+msgid "Font Family"
+msgstr ""
+
+#: config-files/customizer-child.php:124 config-files/customizer-child.php:208
+#: config-files/customizer-child.php:292 config-files/customizer-child.php:376
+#: config-files/customizer-child.php:460 config-files/customizer-child.php:544
+#: config-files/customizer-child.php:627 config-files/customizer-child.php:711
+msgid "Font Style"
+msgstr ""
+
+#: config-files/customizer-child.php:132 config-files/customizer-child.php:216
+#: config-files/customizer-child.php:300 config-files/customizer-child.php:384
+#: config-files/customizer-child.php:468 config-files/customizer-child.php:552
+#: config-files/customizer-child.php:635 config-files/customizer-child.php:719
+msgid "Font Weight"
+msgstr ""
+
+#: config-files/customizer-child.php:140 config-files/customizer-child.php:224
+#: config-files/customizer-child.php:308 config-files/customizer-child.php:392
+#: config-files/customizer-child.php:476 config-files/customizer-child.php:643
+#: config-files/customizer-child.php:727
+msgid "Font Size, px"
+msgstr ""
+
+#: config-files/customizer-child.php:152 config-files/customizer-child.php:236
+#: config-files/customizer-child.php:320 config-files/customizer-child.php:404
+#: config-files/customizer-child.php:488 config-files/customizer-child.php:571
+#: config-files/customizer-child.php:655 config-files/customizer-child.php:739
+msgid "Line Height"
+msgstr ""
+
+#: config-files/customizer-child.php:153 config-files/customizer-child.php:237
+#: config-files/customizer-child.php:321 config-files/customizer-child.php:405
+#: config-files/customizer-child.php:489 config-files/customizer-child.php:572
+#: config-files/customizer-child.php:656 config-files/customizer-child.php:740
+msgid "Relative to the font-size of the element"
+msgstr ""
+
+#: config-files/customizer-child.php:165 config-files/customizer-child.php:249
+#: config-files/customizer-child.php:333 config-files/customizer-child.php:417
+#: config-files/customizer-child.php:501 config-files/customizer-child.php:584
+#: config-files/customizer-child.php:668 config-files/customizer-child.php:752
+msgid "Letter Spacing, px"
+msgstr ""
+
+#: config-files/customizer-child.php:177 config-files/customizer-child.php:261
+#: config-files/customizer-child.php:345 config-files/customizer-child.php:429
+#: config-files/customizer-child.php:513 config-files/customizer-child.php:596
+#: config-files/customizer-child.php:680 config-files/customizer-child.php:764
+msgid "Character Set"
+msgstr ""
+
+#: config-files/customizer-child.php:185 config-files/customizer-child.php:269
+#: config-files/customizer-child.php:353 config-files/customizer-child.php:437
+#: config-files/customizer-child.php:521 config-files/customizer-child.php:604
+#: config-files/customizer-child.php:688
+msgid "Text Align"
+msgstr ""
+
+#: config-files/customizer-child.php:195
+msgid "H1 Heading"
+msgstr ""
+
+#: config-files/customizer-child.php:279
+msgid "H2 Heading"
+msgstr ""
+
+#: config-files/customizer-child.php:363
+msgid "H3 Heading"
+msgstr ""
+
+#: config-files/customizer-child.php:447
+msgid "H4 Heading"
+msgstr ""
+
+#: config-files/customizer-child.php:531
+msgid "H5 Heading"
+msgstr ""
+
+#: config-files/customizer-child.php:614
+msgid "H6 Heading"
+msgstr ""
+
+#: config-files/customizer-child.php:698
+msgid "Button"
+msgstr ""
+
+#: config-files/required-plugins.php:14
+msgid "Jet Plugin Wizard"
+msgstr ""
+
+#: config-files/widgets/elementor-template/class-elementor-template-widget.php:16
+msgid "Elementor Template"
+msgstr ""
+
+#: config-files/widgets/elementor-template/class-elementor-template-widget.php:18
+msgid "Display your Elementor Template."
+msgstr ""
+
+#: config-files/widgets/elementor-template/class-elementor-template-widget.php:61
+msgid "Select Template:"
+msgstr ""
+
+#: config-files/widgets/elementor-template/class-elementor-template-widget.php:82
+msgid "-- Select template --"
+msgstr ""
+
+#: config-files/wizard-config.php:31
+msgid "Jet Data Importer"
+msgstr ""
+
+#: config-files/wizard-config.php:37
+msgid "Jet Blocks For Elementor"
+msgstr ""
+
+#: config-files/wizard-config.php:43
+msgid "Jet Elements For Elementor"
+msgstr ""
+
+#: config-files/wizard-config.php:49
+msgid "Jet Tabs For Elementor"
+msgstr ""
+
+#: config-files/wizard-config.php:55
+msgid "Jet Theme Core"
+msgstr ""
+
+#: config-files/wizard-config.php:61
+msgid "Jet Blog"
+msgstr ""
+
+#: config-files/wizard-config.php:67
+msgid "Jet Popup"
+msgstr ""
+
+#: config-files/wizard-config.php:73
+msgid "Jet Tricks"
+msgstr ""
+
+#: config-files/wizard-config.php:79
+msgid "Jet Menu"
+msgstr ""
+
+#: config-files/wizard-config.php:85
+msgid "Jet Woo Builder"
+msgstr ""
+
+#: config-files/wizard-config.php:91 config-files/wizard-config.php:109
+msgid "Kava Extra"
+msgstr ""
+
+#: config-files/wizard-config.php:97
+msgid "Woocommerce"
+msgstr ""
+
+#: config-files/wizard-config.php:101
+msgid "Visualizer"
+msgstr ""
+
+#: config-files/wizard-config.php:105
+msgid "Contact Form 7"
+msgstr ""
+
+#: config-files/wizard-config.php:115
+msgid "Cryptocurrency Rocket Tools"
+msgstr ""
+
+#: config-files/wizard-config.php:119
+msgid "Elementor"
+msgstr ""
+
+#: config-files/wizard-config.php:150
+msgid "Bitunet Default"
+msgstr ""
+
+#: config-files/wizard-config.php:162 config-files/wizard-config.php:231
+msgid "Bitunet Blue"
+msgstr ""
+
+#: config-files/wizard-config.php:174 config-files/wizard-config.php:238
+msgid "Bitunet Crypto Blog"
+msgstr ""
+
+#: config-files/wizard-config.php:183 config-files/wizard-config.php:245
+msgid "Bitunet Crypto Landing - Blockchain"
+msgstr ""
+
+#: config-files/wizard-config.php:194 config-files/wizard-config.php:252
+msgid "Bitunet Crypto Landing - ICO"
+msgstr ""
+
+#: config-files/wizard-config.php:199 config-files/wizard-config.php:224
+#: functions.php:72
+msgid "Bitunet"
+msgstr ""
+
+#: elementor-addons/crypto-currency-price-widget.php:29
+msgid "Ticker"
+msgstr ""
+
+#: elementor-addons/crypto-currency-price-widget.php:53
+msgid "General"
+msgstr ""
+
+#: elementor-addons/crypto-currency-price-widget.php:60
+msgid "Select Ticker"
+msgstr ""
+
+#: elementor-addons/crypto-currency-price-widget.php:82
+msgid "General Styles"
+msgstr ""
+
+#: elementor-addons/crypto-currency-price-widget.php:91
+msgid "Horizontal Alignment"
+msgstr ""
+
+#: elementor-addons/crypto-currency-price-widget.php:95
+#: elementor-addons/crypto-currency-price-widget.php:209
+#: elementor-addons/crypto-currency-price-widget.php:333
+#: elementor-addons/crypto-currency-price-widget.php:476
+#: elementor-addons/crypto-currency-price-widget.php:579
+msgid "Left"
+msgstr ""
+
+#: elementor-addons/crypto-currency-price-widget.php:96
+msgid "Space Between"
+msgstr ""
+
+#: elementor-addons/crypto-currency-price-widget.php:97
+msgid "Space Around"
+msgstr ""
+
+#: elementor-addons/crypto-currency-price-widget.php:98
+#: elementor-addons/crypto-currency-price-widget.php:217
+#: elementor-addons/crypto-currency-price-widget.php:341
+#: elementor-addons/crypto-currency-price-widget.php:484
+#: elementor-addons/crypto-currency-price-widget.php:587
+msgid "Right"
+msgstr ""
+
+#: elementor-addons/crypto-currency-price-widget.php:109
+msgid "Coin Container Padding"
+msgstr ""
+
+#: elementor-addons/crypto-currency-price-widget.php:120
+msgid "Coin Container Margin"
+msgstr ""
+
+#: elementor-addons/crypto-currency-price-widget.php:133
+msgid "Border"
+msgstr ""
+
+#: elementor-addons/crypto-currency-price-widget.php:144
+msgid "Ticker Background color"
+msgstr ""
+
+#: elementor-addons/crypto-currency-price-widget.php:161
+msgid "Coin Icon Styles"
+msgstr ""
+
+#: elementor-addons/crypto-currency-price-widget.php:170
+msgid "Ticker Icon Width"
+msgstr ""
+
+#: elementor-addons/crypto-currency-price-widget.php:189
+msgid "Ticker Icon Background Color"
+msgstr ""
+
+#: elementor-addons/crypto-currency-price-widget.php:204
+#: elementor-addons/crypto-currency-price-widget.php:328
+#: elementor-addons/crypto-currency-price-widget.php:471
+#: elementor-addons/crypto-currency-price-widget.php:574
+msgid "Alignment"
+msgstr ""
+
+#: elementor-addons/crypto-currency-price-widget.php:213
+#: elementor-addons/crypto-currency-price-widget.php:337
+#: elementor-addons/crypto-currency-price-widget.php:480
+#: elementor-addons/crypto-currency-price-widget.php:583
+msgid "Center"
+msgstr ""
+
+#: elementor-addons/crypto-currency-price-widget.php:230
+#: elementor-addons/crypto-currency-price-widget.php:364
+#: elementor-addons/crypto-currency-price-widget.php:497
+#: elementor-addons/crypto-currency-price-widget.php:600
+msgid "Padding"
+msgstr ""
+
+#: elementor-addons/crypto-currency-price-widget.php:242
+#: elementor-addons/crypto-currency-price-widget.php:376
+#: elementor-addons/crypto-currency-price-widget.php:509
+#: elementor-addons/crypto-currency-price-widget.php:612
+msgid "Margin"
+msgstr ""
+
+#: elementor-addons/crypto-currency-price-widget.php:254
+#: elementor-addons/crypto-currency-price-widget.php:388
+#: elementor-addons/crypto-currency-price-widget.php:521
+#: elementor-addons/crypto-currency-price-widget.php:624
+msgid "Border Radius"
+msgstr ""
+
+#: elementor-addons/crypto-currency-price-widget.php:269
+msgid "Coin Name Styles"
+msgstr ""
+
+#: elementor-addons/crypto-currency-price-widget.php:278
+msgid "Ticker Name Width"
+msgstr ""
+
+#: elementor-addons/crypto-currency-price-widget.php:298
+msgid "Ticker Name Text Color"
+msgstr ""
+
+#: elementor-addons/crypto-currency-price-widget.php:313
+msgid "Ticker Name Background Color"
+msgstr ""
+
+#: elementor-addons/crypto-currency-price-widget.php:403
+msgid "Coin Price Styles"
+msgstr ""
+
+#: elementor-addons/crypto-currency-price-widget.php:412
+msgid "Ticker coin price width"
+msgstr ""
+
+#: elementor-addons/crypto-currency-price-widget.php:431
+msgid "Ticker Price Text Color"
+msgstr ""
+
+#: elementor-addons/crypto-currency-price-widget.php:446
+msgid "Ticker Price Background Color"
+msgstr ""
+
+#: elementor-addons/crypto-currency-price-widget.php:536
+msgid "Coin Changes Styles"
+msgstr ""
+
+#: elementor-addons/crypto-currency-price-widget.php:545
+msgid "Ticker coin changes width"
+msgstr ""
+
+#: elementor-addons/crypto-currency-price-widget.php:636
+msgid "State Styles"
+msgstr ""
+
+#: elementor-addons/crypto-currency-price-widget.php:646
+msgid "Up State"
+msgstr ""
+
+#: elementor-addons/crypto-currency-price-widget.php:652
+msgid "Ticker Up Changes Text Color"
+msgstr ""
+
+#: elementor-addons/crypto-currency-price-widget.php:667
+msgid "Ticker Change Up Background Color"
+msgstr ""
+
+#: elementor-addons/crypto-currency-price-widget.php:683
+msgid "Down State"
+msgstr ""
+
+#: elementor-addons/crypto-currency-price-widget.php:690
+msgid "Ticker Down Changes Text Color"
+msgstr ""
+
+#: elementor-addons/crypto-currency-price-widget.php:705
+msgid "Ticker Change Down Background Color"
+msgstr ""
+
+#: elementor-addons/crypto-currency-price-widget.php:726
+msgid "Ordering"
+msgstr ""
+
+#: elementor-addons/crypto-currency-price-widget.php:735
+msgid "Coin Icon Order"
+msgstr ""
+
+#: elementor-addons/crypto-currency-price-widget.php:751
+msgid "Coin Name Order"
+msgstr ""
+
+#: elementor-addons/crypto-currency-price-widget.php:766
+msgid "Coin Price Order"
+msgstr ""
+
+#: elementor-addons/crypto-currency-price-widget.php:781
+msgid "Coin Changes Order"
+msgstr ""
+
+#: elementor-addons/crypto-currency-price-widget.php:812
+msgid "You Haven’t Any Crypto Currency Shortcode."
+msgstr ""
+
+#: elementor-addons/crypto-currency-price-widget.php:813
+msgid "Create New One"
+msgstr ""

@@ -1,0 +1,245 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2017-12-27 16:32+0300\n"
+"PO-Revision-Date: 2017-12-25 23:05+0300\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.0.5\n"
+"X-Poedit-Basepath: ../includes\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-KeywordsList: __\n"
+"X-Poedit-SearchPath-0: messages.php\n"
+
+#: messages.php:10
+msgid "№"
+msgstr ""
+
+#: messages.php:12
+msgid "Name"
+msgstr ""
+
+#: messages.php:14
+msgid "Price"
+msgstr ""
+
+#: messages.php:16
+msgid "Market Cap"
+msgstr ""
+
+#: messages.php:18
+msgid "Circulating Supply"
+msgstr ""
+
+#: messages.php:20
+msgid "Volume 24H"
+msgstr ""
+
+#: messages.php:22
+msgid "Change 24H"
+msgstr ""
+
+#: messages.php:24
+msgid "Graph 7D"
+msgstr ""
+
+#: messages.php:26
+msgid "Currency"
+msgstr ""
+
+#: messages.php:28
+msgid "Search"
+msgstr ""
+
+#: messages.php:30
+msgid "Show _MENU_ rows"
+msgstr ""
+
+#: messages.php:32
+msgid "Processing..."
+msgstr ""
+
+#: messages.php:34
+msgid "First"
+msgstr ""
+
+#: messages.php:36
+msgid "Last"
+msgstr ""
+
+#: messages.php:38
+msgid "Next"
+msgstr ""
+
+#: messages.php:40
+msgid "Previous"
+msgstr ""
+
+#: messages.php:44
+msgid "I give"
+msgstr ""
+
+#: messages.php:46
+msgid "I get"
+msgstr ""
+
+#: messages.php:48
+msgid "Converter"
+msgstr ""
+
+#: messages.php:53
+msgid "Sunday"
+msgstr ""
+
+#: messages.php:54
+msgid "Monday"
+msgstr ""
+
+#: messages.php:55
+msgid "Tuesday"
+msgstr ""
+
+#: messages.php:56
+msgid "Wednesday"
+msgstr ""
+
+#: messages.php:57
+msgid "Thursday"
+msgstr ""
+
+#: messages.php:58
+msgid "Friday"
+msgstr ""
+
+#: messages.php:59
+msgid "Saturday"
+msgstr ""
+
+#: messages.php:63
+msgid "Sun"
+msgstr ""
+
+#: messages.php:64
+msgid "Mon"
+msgstr ""
+
+#: messages.php:65
+msgid "Tue"
+msgstr ""
+
+#: messages.php:66
+msgid "Wed"
+msgstr ""
+
+#: messages.php:67
+msgid "Thu"
+msgstr ""
+
+#: messages.php:68
+msgid "Fri"
+msgstr ""
+
+#: messages.php:69
+msgid "Sat"
+msgstr ""
+
+#: messages.php:73
+msgid "January"
+msgstr ""
+
+#: messages.php:74
+msgid "February"
+msgstr ""
+
+#: messages.php:75
+msgid "March"
+msgstr ""
+
+#: messages.php:76
+msgid "April"
+msgstr ""
+
+#: messages.php:77 messages.php:92
+msgid "May"
+msgstr ""
+
+#: messages.php:78
+msgid "June"
+msgstr ""
+
+#: messages.php:79
+msgid "July"
+msgstr ""
+
+#: messages.php:80
+msgid "August"
+msgstr ""
+
+#: messages.php:81
+msgid "September"
+msgstr ""
+
+#: messages.php:82
+msgid "October"
+msgstr ""
+
+#: messages.php:83
+msgid "November"
+msgstr ""
+
+#: messages.php:84
+msgid "December"
+msgstr ""
+
+#: messages.php:88
+msgid "Jan"
+msgstr ""
+
+#: messages.php:89
+msgid "Feb"
+msgstr ""
+
+#: messages.php:90
+msgid "Mar"
+msgstr ""
+
+#: messages.php:91
+msgid "Apr"
+msgstr ""
+
+#: messages.php:93
+msgid "Jun"
+msgstr ""
+
+#: messages.php:94
+msgid "Jul"
+msgstr ""
+
+#: messages.php:95
+msgid "Aug"
+msgstr ""
+
+#: messages.php:96
+msgid "Sep"
+msgstr ""
+
+#: messages.php:97
+msgid "Oct"
+msgstr ""
+
+#: messages.php:98
+msgid "Nov"
+msgstr ""
+
+#: messages.php:99
+msgid "Dec"
+msgstr ""
+
+#: messages.php:102
+msgid "Volume"
+msgstr ""

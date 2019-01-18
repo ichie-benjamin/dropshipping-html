@@ -1,0 +1,27 @@
+/**
+ * Twenty Seventeen integration styles
+ */
+.entry-content .jet-woo-builder .product_meta > span {
+  display: block;
+}
+
+.entry-content .jet-woo-builder a:hover {
+  box-shadow: none;
+}
+
+.entry-content .jet-woo-builder .woocommerce-tabs li {
+  margin: 0;
+}
+
+.entry-content .jet-woo-builder .tabs > li.active a {
+  box-shadow: none;
+}
+
+.entry-content .jet-woo-builder .tabs > li a {
+  width: 100%;
+  display: block;
+}
+
+.entry-content .jet-woo-builder .woocommerce-variation-price .price {
+  display: block;
+}

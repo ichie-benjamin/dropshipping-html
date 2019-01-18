@@ -1,0 +1,4 @@
+body.jet-woo-builder-shop-document.post-type-jet-woo-builder #template-settings,
+body.jet-woo-builder-category-document.post-type-jet-woo-builder #template-settings{
+	display: none;
+}

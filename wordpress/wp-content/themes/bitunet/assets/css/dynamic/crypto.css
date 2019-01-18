@@ -1,0 +1,72 @@
+.pagination .page-numbers,
+.page-links > span,
+.page-links > a {
+    color: $h1_color;
+}
+
+blockquote.small-quote {
+    border-left-color: $accent_color;
+}
+
+.first_let {
+    color: $accent_color;
+}
+
+.pagination .page-numbers:not(.dots):hover,
+.pagination .page-numbers:not(.dots).current {
+    background-color: $accent_color;
+    color: $invert_text_color;
+}
+
+
+/* Visualizer fonts styles */
+.visualizer-front {
+    font-style: $h1_font_style;
+    font-size: @font_size($h1_font_size, multiple, ceil, 0.6)px;
+    line-height: $h1_line_height;
+    font-family: @font_family( $h1_font_family );
+    font-family: @font_family( $h1_font_family ) !important;
+}
+
+/* Jet-Blog */
+.invert .jet-smart-tiles__box-title {
+    background-color: $h1_color;
+    color: $invert_text_color;
+}
+
+.invert .jet-smart-listing__post-title {
+    background-color: $h1_color;
+}
+
+.crtools-converter .calc {
+    background-color: $accent_color;
+}
+
+.crtools-converter .input-group-addon-ct,
+.crtools-converter .form-control-ct{
+    font-style: $h5_font_style;
+    font-weight: $h5_font_weight;
+    font-size: $h5_font_size{px};
+    line-height: $h5_line_height;
+    font-family: @font_family( $h5_font_family );
+    letter-spacing: $h5_letter_spacing{px};
+    text-align: $h5_text_align;
+    color: $invert_text_color;
+}
+
+.crtools-converter .calc .input-group-ct select option {
+    background-color: $h1_color;
+}
+
+/* Woo Styles */
+
+.jet-woo-products .jet-woo-products__inner-box {
+    border-color: @alpha($link_hover_color, 10);
+    border-bottom-color: $accent_color;
+}
+
+/* GDPR styles */
+
+.gdpr.gdpr-privacy-bar, .gdpr.gdpr-reconsent-bar {
+    background-color: $accent_color;
+}

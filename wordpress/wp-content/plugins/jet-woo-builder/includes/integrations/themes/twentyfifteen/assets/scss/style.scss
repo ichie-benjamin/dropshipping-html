@@ -1,0 +1,28 @@
+/**
+ * Twenty Fifteen integration styles
+ */
+
+.jet-woo-builder-template-elementor_canvas {
+	&:before {
+		display: none;
+	}
+}
+
+.jet-woo-builder {
+	.woocommerce-review-link {
+		border: none;
+	}
+	
+	.product_meta{
+		> span{
+			display: block;
+		}
+	}
+	
+	.tagged_as,
+	.posted_in{
+		a{
+			border: none;
+		}
+	}
+}
