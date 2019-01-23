@@ -1,6 +1,6 @@
 // List of sentences
 var _CONTENT = [ 
-	"Launch your Amazon to eBay business in under 10 minutes", 
+	"Launch your Amazon to eBay dropshipping business in under 10 minutes", 
 	"Auto-Order - Hands free fully automated software for your store",
 	"Repricing - allowing you to stay ahead of the competition",
 	"Listing Sensei - Stock management tool, auto-updating out of stock inventory along with our reveloutionary items scanner tool - Ninja Scanner",
