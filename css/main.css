@@ -225,7 +225,10 @@ p {
 
 /*Background image*/
 .background-image {
+   /*position: absolute;*/
+   /*z-index: 1;*/
   background-size: cover;
+  /*background-image: url("img/bgn22.jpg"); */
   background-repeat: no-repeat; }
 
 /*Sections*/
@@ -250,7 +253,9 @@ section, .section {
   height: 100%;
   top: 0;
   left: 0;
-  background-color:#000000;}
+  background-color:#000000;
+/*background: url("assets/images/big/view.jpeg");*/
+}
 
 .pad-b-0 {
   padding-bottom: 0; }
@@ -1577,7 +1582,7 @@ body:not(.header-fixed) .logo, .toggle-mnu {
     top: 0;
     right: 0;
     left: 0;
-    background-color: rgba(0, 0, 0, 0);
+    background-color: rgba(5, 7, 8, 9);
     z-index: 1; }
   .bg-mask .container, .bg-mask .container-fluid {
     position: relative;
@@ -3217,7 +3222,10 @@ form .btn {
 /*home*/
 .dark-load header {
   z-index: 6;
-  background-color: #1d1d1d; }
+  /*background-color: #1d1d1d; */
+    background-color: #fff; 
+
+}
 
 /*About us*/
 .about-us {
@@ -4600,8 +4608,13 @@ footer {
     #types {
     
 	text-align: center;
+
 } 
 
+#designs{
+/*  background-colo/*r*/
+/**/  /*background-image: url("assets/images/big/view.jpeg");*/
+}
 
 #typewriters{
     display: inline-block;
@@ -4628,4 +4641,10 @@ footer {
 	50% { 
 		background-color: orange; 
 	}
+}
+
+#backend{
+  background-color: red;
+/*background-image: */
+
 }
