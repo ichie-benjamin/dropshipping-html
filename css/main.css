@@ -448,9 +448,15 @@ ul.minimal li a {
 }
 
 .animated {
-    color: #fff; 
-  animation-duration: 30.5s;
-  animation-iteration-count: infinite;
+    color: #000; 
+  animation-duration: 4.5s;
+  animation-iteration-count: 1;
+}
+
+.animateds {
+    color: #000; 
+  animation-duration: 4.5s;
+  animation-iteration-count: 1;
 }
 
 #butn:hover{
