@@ -317,18 +317,6 @@
 				$(".heading-title > .small-desd").animated("fadeIn");
 				$(".animated-service").animated("fadeIn");
 				$(".masonry-item-pr, .masonry-item").animated("fadeIn");
-                
-                $(".sh1").animated("fadeInLeft");
-                $(".sh2 > img").animated("fadeInRight");
-                
-                $(".sh3 > img").animated("fadeInLeft");
-                $(".sh4").animated("fadeInRight");
-                
-                $(".sh5").animated("fadeInLeft");
-                $(".sh6 > img").animated("fadeInRight");
-                
-                $(".sh7 > img").animated("fadeInLeft");
-                $(".sh8").animated("fadeInRight");
 			}
 	}());
 

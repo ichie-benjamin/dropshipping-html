@@ -447,9 +447,9 @@ ul.minimal li a {
     
 }
 .symbols{
-  color: #f4e706;
+  color: #f4e705;
   font-size: 50px;
-     -webkit-text-stroke: 1px #cec42b;
+     -webkit-text-stroke: 1px black;
    /*color: white;*/
    text-shadow:
        3px 3px 0 #fff,
@@ -462,7 +462,7 @@ ul.minimal li a {
 
 .animated {
     color: #000; 
-  animation-duration: 3s;
+  animation-duration: 4.5s;
   animation-iteration-count: 1;
 }
 
@@ -3312,7 +3312,7 @@ form .btn {
       color: #f4e705; }
   .item-about .content p {
     margin-top: 8px;
-    font-size: 16px;
+    font-size: 14px;
     line-height: 22px;
     color: #606060; }
 
