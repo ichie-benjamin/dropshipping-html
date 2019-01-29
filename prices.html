@@ -13,7 +13,9 @@
     <link rel="stylesheet" href="css/libs.css">
     <!--Main css-->
     <link rel="stylesheet" href="css/main.css">
-  </head>
+    <link rel="stylesheet" href="css/range.css">
+
+      </head>
   <body>
     <header id="top-nav" class="top-nav page-header">
       <div class="container"><a href="#" class="logo smooth-scroll"><img src="img/logo.png" alt="logo" class="logo-white"><img src="img/logodark.png" alt="logo" class="logo-dark"></a>
@@ -193,7 +195,26 @@
               <!-- horizontal line--><span class="horizontal-line"></span><span></span>
               <!-- description slider-->
               <div class="description">
-                <p>Select your preferred Plan</p>
+                
+
+
+
+                <div class="budget-wrap">
+	<div class="budget">
+		<div class="header">
+			<div class="title clearfix">
+				Our Price Range! <span class="pull-right">
+					
+				</span></div>
+		</div>
+		<div class="content">
+			<input type="range" min="1" max="100" value="20" data-rangeslider>
+		</div>
+		<div class="footer clearfix">
+			
+		</div>
+	</div>
+</div>
               </div>
             </div>
           </div>
@@ -404,5 +425,8 @@
     <script src="js/libs.js"></script>
     <!--Use scripts-->
     <script src="js/common.js"></script>
+
+        <script src="js/range.js"></script>
+
   </body>
 </html>
