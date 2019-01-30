@@ -16,4 +16,20 @@ $(function(){
 			//console.log('position: ' + position, 'value: ' + value);
 		}
 	});
+
+	// $(".pricingValues").rangeslider({
+	// 	polyfill:false,
+	// 	onInit:function(){
+	// 		$('.header .pull-left').text($('input[type="range"]').val()+'New Pricing');
+	// 	},
+	// 	onSlide:function(position, value){
+	// 		//console.log('onSlide');
+	// 		//console.log('position: ' + position, 'value: ' + value);
+	// 		$('.header .pull-left').text(value+'New Pricing');
+	// 	},
+	// 	onSlideEnd:function(position, value){
+	// 		//console.log('onSlideEnd');
+	// 		//console.log('position: ' + position, 'value: ' + value);
+	// 	}
+	// });
 });
