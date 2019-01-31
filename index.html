@@ -13,7 +13,7 @@
     <link rel="stylesheet" href="css/libs.css">
     <!--Main css-->
     <link rel="stylesheet" href="css/main.css">
-    
+    <link rel="stylesheet" href="css/range.css">
     <link rel="stylesheet" type="text/css" href="animate.css">
   </head>
   <body class="dark-load">
@@ -29,7 +29,7 @@
             <li><a href="admin/index2.html">Features</a>
 
                 </li>
-                <li><a href="admin/pricing.html">Prices</a>
+                <li><a href="#prices">Prices</a>
 
                 </li>
                 <li><a href="blog.html">Blog</a>
@@ -182,13 +182,13 @@
             </div>
           </div>
           <div class="col-md-3">
-            <div class="item"><img style="width: 75px;" src="assets/images/items/order.png">
-              <h4>Orders</h4>
+            <div class="item"><img style="width: 75px;" src="assets/images/items/listin.png">
+              <h4>Auto-Order</h4>
               <p>Create and maintain orders as you wish</p>
             </div>
           </div>
           <div class="col-md-3">
-            <div class="item"><img style="width: 75px;" src="assets/images/items/listin.png">
+            <div class="item"><img style="width: 75px;" src="assets/images/items/order.png">
               <h4>Listing Sensei</h4>
               <p>Use the Sensei feature to manage your multiple accounts.</p>
             </div>
@@ -314,7 +314,30 @@
           
       </div>
     </section>
+    
     <!--Section services-->
+    <h1>Our <span><a name="prices">prices</a></span></h1>
+              <!-- horizontal line-->
+              <span class="horizontal-line"></span><span></span>
+              <!-- description slider-->
+              <div class="description">
+    <div class="budget-wrap">
+	<div class="budget">
+		<div class="header">
+			<div class="title clearfix">
+				Our Price Range! <span class="pull-right">
+					
+				</span></div>
+		</div>
+		<div class="content">
+			<input type="range" min="1" max="100" value="20" data-rangeslider>
+			<p class="pricingValues">Our Values <span class="pull-left"></span></p>
+		</div>
+		<div class="footer clearfix">
+			
+		</div>
+	</div>
+</div></div>
     <!--Section how we work-->
     <section data-image="img/bg2.jpg" class="section-how-we-work bg-white-section background-image">
       <div class="container">
@@ -470,5 +493,6 @@
     <script src="js/common.js"></script>
      <!--Use scripts-->
     <script src="js/customs.js"></script>
+     <script src="js/range.js"></script>
   </body>
 </html>
