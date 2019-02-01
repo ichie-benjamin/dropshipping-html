@@ -18,6 +18,22 @@
     <link href="css/style.css" rel="stylesheet">
     <!-- You can change the theme colors from here -->
     <link href="css/colors/blue.css" id="theme" rel="stylesheet">
+
+
+    <style>
+        /* Tooltip */
+  .test + .tooltip > .tooltip-inner {
+    background-color: #73AD21; 
+    color: #FFFFFF; 
+    border: 1px solid green; 
+    padding: 15px;
+    font-size: 20px;
+  }
+  /* Tooltip on top */
+  .test + .tooltip.top > .tooltip-arrow {
+    border-top: 5px solid green;
+  }
+    </style>
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -58,11 +74,15 @@
                             <input class="form-control" type="password" required="" placeholder="Password">
                         </div>
                     </div>
+
+                    <!-- data-toggle="tooltip" title="Hooray!" -->
                     <div class="form-group">
                         <div class="col-xs-12">
                             <input class="form-control" type="password" required="" placeholder="Confirm Password">
                         </div>
                     </div>
+
+                    <!-- <a href="#" data-toggle="tooltip" title="Hooray!">Hello</a> -->
                     <div class="form-group">
                         <div class="">
                             <div class="checkbox checkbox-success p-t-0">
@@ -75,9 +95,23 @@
                         <div class="">
                             <div class="checkbox checkbox-success p-t-0">
                                 <input id="checkbox-signup" type="checkbox">
-                                <label for="gdpr">I agree to the GDPR Terms & Conditions
+                                <label class="d-inline-block" for="gdpr" data-toggle="tooltip" title="I confirm that I am at least 16 years of age or older
 
+I have read and accept any EULA, Terms and Conditions, Acceptable Use Policy, and/or Data Processing Addendum which has been provided to me in connection with the software, products and/or services. 
 
+I have been fully informed and consent to the collection and use of my personal data for any purpose in connection with the software, products and/or services. 
+
+I understand that certain data, including personal data, must be collected or processed in order for you to provide any products or services I have requested or contracted for. I understand that in some cases it may be required to use cookies or similar tracking to provide those products or services.. 
+
+I understand that I have the right to request access annually to any personal data you have obtained or collected regarding me. You have agreed to provide me with a record of my personal data in a readable format. 
+
+I also understand that I can revoke my consent and that I have the right to be forgotten. If I revoke my consent you will stop collecting or processing my personal data. I understand that if I revoke my consent, you may be unable to provide contracted products or services to me, and I can not hold you responsible for that. 
+
+Likewise, if I properly request to be forgotten, you will delete the data you have for me, or make it inaccessible. I also understand that if there is a dispute regarding my personal data, I can contact someone who is responsible for handling data-related concerns. If we are unable to resolve any issue, you will provide an independent service to arbitrate a resolution. If I have any questions regarding my rights or privacy, I can contact the email address provided." >I agree to the GDPR Terms & Conditions</label>
+
+                                
+                                    
+                                </span>
 
                                 </label>
                             </div>
@@ -125,6 +159,12 @@
     <!-- Style switcher -->
     <!-- ============================================================== -->
     <script src="../assets/plugins/styleswitcher/jQuery.style.switcher.js"></script>
+
+    <script>
+$(document).ready(function(){
+  $('[data-toggle="tooltip"]').tooltip();   
+});
+</script>
 </body>
 
 
